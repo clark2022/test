@@ -5,7 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6adcc0dc-50b4-4c2d-b777-253fc5a8fe06" name="Default Changelist" comment="test" />
+    <list default="true" id="6adcc0dc-50b4-4c2d-b777-253fc5a8fe06" name="Default Changelist" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drf/backend/cfehome/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +28,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27NC3VWFcXsxTqZMrvSrfUgn15X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
@@ -39,7 +45,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.basic">
+  <component name="RunManager" selected="Python.consumer">
     <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="drf" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,6 +60,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drf/py_client/basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="drf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drf/py_client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drf/py_client/consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,11 +140,13 @@
       <item itemvalue="Django Server.drf" />
       <item itemvalue="Python.basic" />
       <item itemvalue="Python.manage" />
+      <item itemvalue="Python.consumer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.basic" />
+        <item itemvalue="Python.consumer" />
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.basic" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +165,7 @@
       <workItem from="1653132893652" duration="8834000" />
       <workItem from="1653242960128" duration="2089000" />
       <workItem from="1653247134064" duration="250000" />
+      <workItem from="1653303797589" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1653244661455</created>
@@ -174,22 +205,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="326" y="520" width="955" height="832" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1653245252947" />
-    <state width="1095" height="375" key="GridCell.Tab.0.bottom" timestamp="1653245456452">
+    <state width="1095" height="365" key="GridCell.Tab.0.bottom" timestamp="1653304740605">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1095" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1653245456452" />
-    <state width="1095" height="375" key="GridCell.Tab.0.center" timestamp="1653245456452">
+    <state width="1095" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1653304740605" />
+    <state width="1095" height="365" key="GridCell.Tab.0.center" timestamp="1653304740605">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1095" height="375" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1653245456452" />
-    <state width="1095" height="375" key="GridCell.Tab.0.left" timestamp="1653245456452">
+    <state width="1095" height="365" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1653304740605" />
+    <state width="1095" height="365" key="GridCell.Tab.0.left" timestamp="1653304740605">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1095" height="375" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1653245456452" />
-    <state width="1095" height="375" key="GridCell.Tab.0.right" timestamp="1653245456452">
+    <state width="1095" height="365" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1653304740605" />
+    <state width="1095" height="365" key="GridCell.Tab.0.right" timestamp="1653304740605">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1095" height="375" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1653245456452" />
+    <state width="1095" height="365" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1653304740605" />
     <state x="627" y="434" key="RollbackChangesDialog" timestamp="1653244994460">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -207,8 +238,20 @@
     </state>
     <state x="859" y="503" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1653245249911" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/drf/backend/cfehome/cfehome/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/drf$manage.coverage" NAME="manage Coverage Results" MODIFIED="1653243034975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drf/backend/cfehome" />
+    <SUITE FILE_PATH="coverage/drf$manage.coverage" NAME="manage Coverage Results" MODIFIED="1653304595294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drf/backend/cfehome" />
     <SUITE FILE_PATH="coverage/drf$basic.coverage" NAME="basic Coverage Results" MODIFIED="1653243150125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drf/py_client" />
+    <SUITE FILE_PATH="coverage/drf$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1653304750340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drf/py_client" />
   </component>
 </project>
